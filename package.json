@@ -1,0 +1,17 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "an app to check the weather using data from open-meteo",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": "git@github.com:jmaru118/weatherapp.git",
+  "author": "Jonathan Martinez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "nodemon": "^2.0.20"
+  }
+}
