@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel="stylesheet" type="text/css" href="../public/css/styles.css">
+    </head>
+    <body>
+        <h1><%= title %></h1>
+        <p>Log in for access</p>
+        <form action="/login" method="post">
+            <input required type="email" name="email" placeholder="email@abc.com">
+            <input required type="password" name="password" placeholder="enter a password">
+            <input type="submit" value="Login">
+        </form>
+    </body>
+</html>
